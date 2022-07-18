@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.test {
+	border: 1px solid black;
+	width: 100%;
+	heigth: 100%;
+}
