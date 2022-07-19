@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-.test {
-	border: 1px solid black;
-	width: 100%;
-	heigth: 100%;
+.top-image {
+	width: 80%;
+	height: 250px;
 }

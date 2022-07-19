@@ -30,8 +30,8 @@ var Home = {
 	// 처리 메서드가 정의된 객체
 	// ----------------------------------
 	fn : {
-		test : function(){
-    		$("#slide").slideToggle();
+		selectItem : function(){
+    		console.log("상품 클릭!!");
 		},
 	}
 }
