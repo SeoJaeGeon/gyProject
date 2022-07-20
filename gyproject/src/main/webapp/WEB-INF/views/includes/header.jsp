@@ -22,7 +22,7 @@
 		<nav class="cd-main-nav-wrapper">
 			<ul class="cd-main-nav">
 				<li><a href="#0">소개</a></li>
-				<li><a href="#0">블로그</a></li>
+				<li><a href="https://www.naver.com" target='_blank'>블로그</a></li>
 				<li><a href="#0">문의하기</a></li>
 				<li>
 					<a href="#0" class="cd-subnav-trigger"><span>상품 메뉴</span></a>
@@ -33,6 +33,10 @@
 						<li><a href="#0">상품3</a></li>
 						<li><a href="#0">상품4</a></li>
 						<li><a href="#0">상품5</a></li>
+						<li><a href="#0">상품6</a></li>
+						<li><a href="#0">상품7</a></li>
+						<li><a href="#0">상품8</a></li>
+						<li><a href="#0">상품9</a></li>
 						<li><a href="#0" class="placeholder">Placeholder</a></li>
 					</ul>
 				</li>

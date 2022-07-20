@@ -13,28 +13,40 @@
 	<%@include file="../includes/header.jsp"%>
 
 	<main class="cd-main-content">
-		<div class="div-sub-content-300 div-flex-column_center">
+		<div class="sub-wrap_300 flex-column_center">
 			<img class="top-image" src="images/air_plane.png" />
 		</div>
-
-		<div class="div-sub-content_increase div-sub-content_padding div-flex-column_row">
-			<div class="item-box">
-				<div class="item-box_top">
-					<img class="full-image cursor-onClick" src="images/tottenham.png" onClick="javascript:Home.fn.selectItem();"/>
-				</div>
-				<div class="item-box_bottom">
-					<span>상품 설명</span>
-				</div>
+		<div class="content_increase">
+			<div class="item-orderby_btn">
+				<div class="click">조회순</div>
+				<div class="none">등록순</div>
+				<div class="none">이름순</div>
 			</div>
-			
-			<div class="item-box">
-				<div class="item-box_top">
-					<img class="full-image cursor-onClick" src="images/tottenham.png" onClick="javascript:Home.fn.selectItem();"/>
-				</div>
-				<div class="item-box_bottom">
-					<span>상품 설명</span>
-				</div>
-			</div>
+		</div>
+		<div class="content_increase content_padding list">
+			<ul class="row">
+				<li class="cell">
+					<div class="img-box">
+						<img  class="cursor-pointer" src="http://bnx.oa.gg/img/bnx_16fw_visual_01_list.jpg" alt="">
+					</div>
+					<div class="product-name cursor-pointer">단가라 ops</div>
+					<div class="product-price">19800</div>
+				</li>
+				<li class="cell">
+					<div class="img-box">
+						<img  class="cursor-pointer" src="http://bnx.oa.gg/img/bnx_16fw_visual_01_list.jpg" alt="">
+					</div>
+					<div class="product-name cursor-pointer">단가라 ops</div>
+					<div class="product-price">19800</div>
+				</li>
+				<li class="cell">
+					<div class="img-box">
+						<img  class="cursor-pointer" src="http://bnx.oa.gg/img/bnx_16fw_visual_01_list.jpg" alt="">
+					</div>
+					<div class="product-name cursor-pointer">단가라 ops</div>
+					<div class="product-price">19800</div>
+				</li>
+			</ul>
 		</div>
 	</main>
 </body>
