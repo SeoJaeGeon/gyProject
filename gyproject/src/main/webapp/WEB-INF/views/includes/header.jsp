@@ -18,12 +18,12 @@
 </head>
 <body>
 	<header>
-		<div class="cd-logo"><a href="#0"><img src="images/cd-logo.svg" alt="Logo"></a></div>
+		<div class="cd-logo"><a href="/"><img src="images/cd-logo.svg" alt="Logo"></a></div>
 		<nav class="cd-main-nav-wrapper">
 			<ul class="cd-main-nav">
 				<li><a href="#0">소개</a></li>
 				<li><a href="https://www.naver.com" target='_blank'>블로그</a></li>
-				<li><a href="#0">문의하기</a></li>
+				<li><a href="/inquires">문의게시판</a></li>
 				<li>
 					<a href="#0" class="cd-subnav-trigger"><span>상품 메뉴</span></a>
 					<ul>
