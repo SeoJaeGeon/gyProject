@@ -34,14 +34,23 @@ var View = {
     		var form = $("<form id='forward'/>");
 			     form.attr("method", "post");
 			     form.attr("action", "/inquires/goInsert");
-			var input = "<input type='hidden' name='pageNo' value='"+List.currentPage+"' />";
-				input += "<input type='hidden' name='listBlock' value='"+List.fn.nvl($("#listBlock option:selected").val(), 10)+"' />";
-				input += "<input type='hidden' name='searchType' value='"+List.fn.nvl($("#searchType option:selected").val(), 0)+"' />";
-				input += "<input type='hidden' name='inputString' value='"+$("#inputString").val()+"' />";
-				input += "<input type='hidden' name='bid' value='"+ List.bid +"' />";
-				input += "<input type='hidden' name='type' value='insert' />";
+			var input = "<input type='hidden' name='testValue' value='no' />";
 			form.append(input);
 		    form.appendTo("body").submit();
+		    
+//		    $.ajax({
+//				type : "POST",
+//				url : "/goInsert",
+//				data: {},
+//				contentType: "application/json",
+//				dataType: "json",
+//				success : function (data, status) {
+//				   alert("success");
+//				},
+//				error : function (status) {
+//				   alert(status + "error!");
+//				}
+//			});
 		},
 	}
 }
