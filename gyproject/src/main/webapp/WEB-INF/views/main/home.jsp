@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="css/main/home.css" />
-<script type="text/javascript" src="/js/Main/Home.js"></script>
+<link type="text/css" rel="stylesheet" href="static//css/main/home.css" />
+<script type="text/javascript" src="static//js/Main/Home.js"></script>
 
 <title>GeonYoung</title>
 </head>
@@ -14,7 +14,7 @@
 
 	<main class="cd-main-content">
 		<div class="sub-wrap_300 flex-column_center">
-			<img class="top-image" src="images/air_plane.png" />
+			<img class="top-image" src="static/images/air_plane.png" />
 		</div>
 		<div class="content_increase">
 			<div class="item-orderby_btn">

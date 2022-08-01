@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link type="text/css" rel="stylesheet" href="css/inquires/view.css" />
-<script type="text/javascript" src="/js/Inquires/View.js"></script>
+<link type="text/css" rel="stylesheet" href="../static/css/inquires/view.css" />
+<script type="text/javascript" src="../static/js/Inquires/View.js"></script>
 
 <title>GeonYoung</title>
 </head>
