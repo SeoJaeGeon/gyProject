@@ -1,10 +1,6 @@
-var Home = {
-	// ----------------------------
-	// InfoIndex 객체
-	// ----------------------------
-	name : 'Home',
-	currentPage:1,		// 페이지 번호
-
+var Insert = {
+	name : 'Insert',
+	currentPage:1,
 	pageNo : 1,
 	listBlock : 10,
 
@@ -23,15 +19,20 @@ var Home = {
 	},
 
 	afterBind : function() {
-
+		Insert.fn.ckEditor();
 	},
 
 	// ----------------------------------
 	// 처리 메서드가 정의된 객체
 	// ----------------------------------
 	fn : {
-		selectItem : function(){
-    		console.log("상품 클릭!!");
+		ckEditor : function(){
+			/* 책 소개 */
+			ClassicEditor
+				.create(document.querySelector('#inquires_textarea'))
+				.catch(error=>{
+					console.error(error);
+				});
 		},
 	}
 }

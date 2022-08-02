@@ -1,17 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
 <head>
-<meta charset="UTF-8">
+<%@include file="../includes/header.jsp"%>
 <link type="text/css" rel="stylesheet" href="../static/css/inquires/view.css" />
 <script type="text/javascript" src="../static/js/Inquires/View.js"></script>
 
 <title>GeonYoung</title>
 </head>
 <body>
-	<%@include file="../includes/header.jsp"%>
-
 	<main class="cd-main-content">
 		<div class="sub-wrap_500">
 			<div class="board_list_wrap">
@@ -77,4 +73,3 @@
 		</div>
 	</main>
 </body>
-</html>

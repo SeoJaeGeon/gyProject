@@ -3,18 +3,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="../static/css/includes/reset.css"> <!-- CSS reset -->
 <link rel="stylesheet" href="../static/css/includes/style.css"> <!-- Resource style -->
 <script src="../static/js/Includes/modernizr.js"></script> <!-- Modernizr -->
-<script src="../static/js/Includes/jquery-2.1.1.js"></script>
 <script src="../static/js/Includes/Header.js"></script> <!-- Resource jQuery -->
 <link rel="stylesheet" href="../static/css/includes/variables.css"> <!-- Common style -->
 <link rel="stylesheet" href="../static/css/includes/m_variables.css" media="screen and (min-width: 0px) and (max-width: 1024px)"> <!-- Mobile Common style -->
-<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script> <!-- 게시글 에디터 -->
+<script type="text/javascript" src="../static/js/common/common.js"></script>
+<script type="text/javascript" src="../static/js/Includes/jquery-2.1.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <title>GeonYoung</title>
 </head>
 <body>
