@@ -10,11 +10,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
+@RequestMapping(value = "/inquires")
 public class InquiresController {
-
-	@RequestMapping(value = "/inquires/goInsert")
-	public String home(Locale locale, Model model) {
+	
+	@RequestMapping(value = "/goList")
+	public String goList(Locale locale, Model model) {
+		return "/inquires/list";
+	}
+	
+	@RequestMapping(value = "/goInsert")
+	public String goInsert(Locale locale, Model model) {
 		return "/inquires/insert";
 	}
 	
+	@RequestMapping(value = "/goUpdate")
+	public String goUpdate(Locale locale, Model model) {
+		return "/inquires/update";
+	}
+
+	@RequestMapping(value = "/goView")
+	public String goView(Locale locale, Model model) {
+		return "/inquires/view";
+	}
 }

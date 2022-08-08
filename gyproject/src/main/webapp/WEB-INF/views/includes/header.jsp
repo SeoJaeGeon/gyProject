@@ -24,7 +24,7 @@
 			<ul class="cd-main-nav">
 				<li><a href="#0">소개</a></li>
 				<li><a href="https://www.naver.com" target='_blank'>블로그</a></li>
-				<li><a href="/inquires/view">문의게시판</a></li>
+				<li><a href="/inquires/goList">문의게시판</a></li>
 				<li>
 					<a href="#0" class="cd-subnav-trigger"><span>상품 메뉴</span></a>
 					<ul>

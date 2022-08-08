@@ -2,23 +2,49 @@
 	pageEncoding="UTF-8"%>
 <head>
 <%@include file="../includes/header.jsp"%>
-<script src="https://cdn.ckeditor.com/ckeditor5/34.2.0/classic/ckeditor.js"></script> <!-- 게시글 에디터 -->
 <link type="text/css" rel="stylesheet" href="../static/css/inquires/insert.css" />
 <script type="text/javascript" src="../static/js/Inquires/Insert.js"></script>
+<link rel="stylesheet" href="../static/css/inquires/css.css">
+<title>GeonYoung</title>
 
 <script type="text/javascript">
  	$(function() {
 		common.invoke("Insert");
 	});
 </script>
-
-<title>GeonYoung</title>
 </head>
 <body>
-	<main class="cd-main-content">
-		<div class="sub-wrap_500 content_increase">
-			<label for="gdsDes">상품소개</label>
-			<textarea name="inquiresInput" id="inquires_textarea"></textarea>
-		</div>
-	</main>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>공지사항</strong>
+            <p>공지사항을 빠르고 정확하게 안내해드립니다.</p>
+        </div>
+        <div class="board_write_wrap">
+            <div class="board_write">
+                <div class="title">
+                    <dl>
+                        <dt>제목</dt>
+                        <dd><input type="text" placeholder="제목 입력"></dd>
+                    </dl>
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>글쓴이</dt>
+                        <dd><input type="text" placeholder="글쓴이 입력"></dd>
+                    </dl>
+                    <dl>
+                        <dt>비밀번호</dt>
+                        <dd><input type="password" placeholder="비밀번호 입력"></dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    <textarea placeholder="내용 입력"></textarea>
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <a href="/inquires/goList" class="on">등록</a>
+                <a href="/inquires/goList">취소</a>
+            </div>
+        </div>
+    </div>
 </body>

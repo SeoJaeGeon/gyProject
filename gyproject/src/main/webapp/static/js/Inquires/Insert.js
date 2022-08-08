@@ -27,12 +27,6 @@ var Insert = {
 	// ----------------------------------
 	fn : {
 		ckEditor : function(){
-			/* 책 소개 */
-			ClassicEditor
-				.create(document.querySelector('#inquires_textarea'))
-				.catch(error=>{
-					console.error(error);
-				});
 		},
 	}
 }

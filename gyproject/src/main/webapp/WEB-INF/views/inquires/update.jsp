@@ -2,47 +2,51 @@
 	pageEncoding="UTF-8"%>
 <head>
 <%@include file="../includes/header.jsp"%>
-<link type="text/css" rel="stylesheet" href="css/main/home.css" />
-<script type="text/javascript" src="/js/Main/Home.js"></script>
-
+<link type="text/css" rel="stylesheet" href="css/main/update.css" />
+<script type="text/javascript" src="/js/Main/Update.js"></script>
+<link rel="stylesheet" href="../static/css/inquires/css.css">
 <title>GeonYoung</title>
 </head>
 <body>
-	<main class="cd-main-content">
-		<div class="sub-wrap_300 flex-column_center">
-			<img class="top-image" src="images/air_plane.png" />
-		</div>
-		<div class="content_increase">
-			<div class="item-orderby_btn">
-				<div class="click">조회순</div>
-				<div class="none">등록순</div>
-				<div class="none">이름순</div>
-			</div>
-		</div>
-		<div class="content_increase content_padding list">
-			<ul class="row">
-				<li class="cell">
-					<div class="img-box">
-						<img  class="cursor-pointer" src="http://bnx.oa.gg/img/bnx_16fw_visual_01_list.jpg" alt="">
-					</div>
-					<div class="product-name cursor-pointer">단가라 ops</div>
-					<div class="product-price">19800</div>
-				</li>
-				<li class="cell">
-					<div class="img-box">
-						<img  class="cursor-pointer" src="http://bnx.oa.gg/img/bnx_16fw_visual_01_list.jpg" alt="">
-					</div>
-					<div class="product-name cursor-pointer">단가라 ops</div>
-					<div class="product-price">19800</div>
-				</li>
-				<li class="cell">
-					<div class="img-box">
-						<img  class="cursor-pointer" src="http://bnx.oa.gg/img/bnx_16fw_visual_01_list.jpg" alt="">
-					</div>
-					<div class="product-name cursor-pointer">단가라 ops</div>
-					<div class="product-price">19800</div>
-				</li>
-			</ul>
-		</div>
-	</main>
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>공지사항</strong>
+            <p>공지사항을 빠르고 정확하게 안내해드립니다.</p>
+        </div>
+        <div class="board_write_wrap">
+            <div class="board_write">
+                <div class="title">
+                    <dl>
+                        <dt>제목</dt>
+                        <dd><input type="text" placeholder="제목 입력" value="글 제목이 들어갑니다"></dd>
+                    </dl>
+                </div>
+                <div class="info">
+                    <dl>
+                        <dt>글쓴이</dt>
+                        <dd><input type="text" placeholder="글쓴이 입력" value="김이름"></dd>
+                    </dl>
+                    <dl>
+                        <dt>비밀번호</dt>
+                        <dd><input type="password" placeholder="비밀번호 입력" value="1234"></dd>
+                    </dl>
+                </div>
+                <div class="cont">
+                    <textarea placeholder="내용 입력">
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.
+글 내용이 들어갑니다.</textarea>
+                </div>
+            </div>
+            <div class="bt_wrap">
+                <a href="/inquires/goUpdate" class="on">수정</a>
+                <a href="/inquires/goList">취소</a>
+            </div>
+        </div>
+    </div>
 </body>
